@@ -62,6 +62,16 @@ The project uses the following Olist datasets:
 * Geolocation
 * Product Category Translation
 
+### Dataset Availability
+
+The original Olist CSV dataset is not included in this GitHub repository due to GitHub's individual file upload limitations. The dataset was used locally for database creation, API development, SQL analytics, and dashboard development.
+
+To reproduce the project locally, place the Olist CSV files in the `data/` directory and run:
+
+```bash
+python scripts/load_data.py
+
+
 ---
 
 ## Database Design
